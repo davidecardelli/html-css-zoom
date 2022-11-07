@@ -1,0 +1,37 @@
+/* Reset */
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+/* Generics */
+
+body {
+	font-family: sans-serif;
+}
+
+header {
+    background-color: black;
+    height: 50px;
+}
+
+main {
+    height: calc(100vh - 120px);
+    overflow: auto;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+}
+
+/* Utils */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
