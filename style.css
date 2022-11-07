@@ -20,14 +20,14 @@ header {
 }
 
 main {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 140px);
     overflow: auto;
 
 }
 
 footer {
     background-color: black;
-    height: 70px;
+    height: 90px;
 }
 
 /* Utils */
@@ -70,11 +70,9 @@ img {
 
 .commands {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
-}
-
-.commands > div{
-    flex-basis: calc(100% /  3);
 }
 
 .commands li{
@@ -89,20 +87,22 @@ img {
 .commands-sx ul{
     display: flex;
     height: 100%;
-    justify-content: flex-start;
-    align-items: center;
     margin-left: 20px;
 }
 
 .commands-center ul{
     display: flex;
     height: 100%;
-    justify-content: center;
-    align-items: center;
 }
 
-.commands li{
+.icon li{
     font-size: 20px;
+}
+
+.icon p{
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .icon{
@@ -110,4 +110,20 @@ img {
     text-align: center;
 }
 
+#green {
+    color: green;
+}
+
+.commands-dx{
+    background-color: grey;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.commands-dx p{
+    color: red;
+    padding: 20px;
+}
 
